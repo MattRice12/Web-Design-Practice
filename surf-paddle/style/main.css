@@ -5,14 +5,22 @@ body {
   margin: 0;
 }
 
-header {
+h1, h2 {
+  font-family: 'Oswald';
+}
+
+p, li, a {
+  font-family: 'Open Sans';
+}
+
+.header-section {
   background: linear-gradient( rgba(73, 155, 234, 0.6), rgba(20, 104, 174, 0.6)), url(http://i.imgur.com/KPlqgNY.jpg);
   background-repeate: no-repeat;
   height: 40.3vw;
 }
 
 nav {
-  margin: 0 5%;
+  margin: 0 7%;
 }
 
 a {
@@ -20,6 +28,28 @@ a {
   color: #083451;
   font-size: 1rem;
   font-weight: 800;
+}
+
+section h1 {
+  font-family: 'Open Sans';
+  color: white;
+  margin: 1.5em 0 0 0;
+  font-size: 8vw;
+  text-align: center;
+}
+
+section p {
+  font-family: 'Open Sans';
+  text-align: center;
+  margin-top: 0;
+  font-size: .8rem;
+  word-spacing: -0.5px;
+  font-weight: 800;
+}
+
+ul li {
+  padding: 0;
+  margin: 0 5px;
 }
 
 .nav-left {
@@ -55,11 +85,6 @@ a {
   margin: 0;
 }
 
-ul li {
-  padding: 0;
-  margin: 0 5px;
-}
-
 .fa-search {
   float: right;
   margin-left: 4px;
@@ -68,17 +93,159 @@ ul li {
   transition: all .5s ease;
 }
 
-section h1 {
+/*******************************/
+
+main {
+  margin: 0 10%;
+}
+
+article header h2 {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.profilePic {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.author-name {
+  color: #1E6FB1;
+  padding-right: 10px;
+  font-size: 0.75rem;
+}
+
+.publish-info {
+  font-size: 0.75rem;
+  color: #A8B6C1;
+  margin-bottom: 30px;
+}
+
+.publish-date {
+  text-decoration: underline;
+}
+
+.article-body p {
+  color: gray;
+  margin-bottom: 25px;
+  font-size: .80em;
+  line-height: 22px;
+}
+
+.article-body blockquote {
+  color: #106DB3;
+  font-size: 1.5em;
+  padding: 10px 0 10px 20px;
+  margin: 10px 0;
+  border-left: 2px solid lightgray;
+}
+
+main ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+main ul li {
+  margin: 5px 10px 0 0;
+  background-color: #99AAB7;
+  border: 1px solid #8FA2B1;
+}
+
+main ul li a {
+  font-size: .75em;
+  padding: 0 20px 0 0;
   color: white;
-  margin: 1.5em 0 0 0;
-  font-size: 8vw;
   text-align: center;
 }
 
-section p {
+main ul li a .fa {
+  background-color: #535D64;
+  color: white;
+  padding: 7px;
+  margin-right: 10px;
+}
+
+.share {
+  background-color: #0F62AA;
+  border: 1px solid #004AA1;
+}
+
+.share .fa {
+  background-color: #1B344C;
+}
+
+#content {
+  display: flex;
+  margin-top: 25px;
+}
+
+aside {
+  width: 25%;
+  margin: 0 10% 0 2%;
+}
+
+.socialMediaInfo {
   text-align: center;
-  margin-top: 0;
-  font-size .95rem;
-  word-spacing: -0.5px;
-  font-weight: 400;
+}
+
+.bigProfilePic {
+  width: 65px;
+}
+
+aside div h5 {
+  margin: 10px 0 0 0;
+  color: #0057A6;
+}
+
+aside div .socialMediaLinks {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.socialMediaLinks li a {
+  font-size: .70em;
+  color: #A8B6C1;
+  padding: 0 5px;
+  margin-left: 10px;
+}
+
+.big-pic {
+  text-align: right;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 250px;
+}
+
+.big-pic a {
+  color: #A8B6C1;
+  text-decoration: underline;
+  font-size: .75em;
+  font-weight: 300;
+}
+
+.big-pic h4 {
+  text-align: left;
+  margin-bottom: 5px;
+  color: #0057A6;
+  font-family: 'Oswald';
+  font-size: .85em;
+  font-weight: 500;
+}
+
+.big-pic p {
+  text-align: left;
+  line-height: 20px;
+  color: #A8B6C1;
+  font-size: .75em;
+  font-weight: 200;
 }
