@@ -1,0 +1,84 @@
+
+body {
+  font-family: 'Open Sans', serif;
+  color: #083451;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient( rgba(73, 155, 234, 0.6), rgba(20, 104, 174, 0.6)), url(http://i.imgur.com/KPlqgNY.jpg);
+  background-repeate: no-repeat;
+  height: 40.3vw;
+}
+
+nav {
+  margin: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #083451;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.nav-left {
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.header-name {
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.header-logo {
+  opacity: 0.5;
+  width: 30px;
+  margin-top: -5px;
+  padding-right: 5px;
+}
+
+.nav-right {
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding-left: 20%;
+  margin-top: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 0;
+  margin: 0 5px;
+}
+
+.fa-search {
+  float: right;
+  margin-left: 4px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+section h1 {
+  color: white;
+  margin: 1.5em 0 0 0;
+  font-size: 8vw;
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+  margin-top: 0;
+  font-size .95rem;
+  word-spacing: -0.5px;
+  font-weight: 400;
+}
