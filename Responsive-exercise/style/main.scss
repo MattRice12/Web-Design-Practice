@@ -82,11 +82,14 @@ h1, h2, h3, p {
       color: $main-color;
       z-index: 2;
     }
-    &:not(:checked) ~ .content {
+    & ~ .content {
       display: none;
     }
     &:checked ~ .content {
       display: flex;
+      width: 70%;
+
+
     }
   }
 }
@@ -95,12 +98,13 @@ h1, h2, h3, p {
   display: flex;
   align-items: flex-start;
   max-width: 80%;
-  margin-left: 15%;
+  align-self: center;
   section {
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
-    width: 330px;
+    width: 270px;
+    min-width: 270px;
     &:hover {
       color: $main-color;
     }
@@ -148,7 +152,8 @@ h1, h2, h3, p {
 .content {
   position: absolute;
   top: 250px;
-  left: 100px;
+  left: 15%;
+  justify-content: center;
 }
 
 footer {

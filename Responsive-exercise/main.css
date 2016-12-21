@@ -63,21 +63,23 @@ h1, h2, h3, p {
       border-right: 1px solid #47A3DA;
       color: #47A3DA;
       z-index: 2; }
-    .tabs-container [type=radio]:not(:checked) ~ .content {
+    .tabs-container [type=radio] ~ .content {
       display: none; }
     .tabs-container [type=radio]:checked ~ .content {
-      display: flex; }
+      display: flex;
+      width: 70%; }
 
 .content {
   display: flex;
   align-items: flex-start;
   max-width: 80%;
-  margin-left: 15%; }
+  align-self: center; }
   .content section {
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
-    width: 330px; }
+    width: 270px;
+    min-width: 270px; }
     .content section:hover {
       color: #47A3DA; }
   .content .image-container {
@@ -116,7 +118,8 @@ h1, h2, h3, p {
 .content {
   position: absolute;
   top: 250px;
-  left: 100px; }
+  left: 15%;
+  justify-content: center; }
 
 footer {
   position: absolute;
