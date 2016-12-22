@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+header .content {
+  padding: 50px;
+  border-bottom: 2px solid black;
+}
+
+img {
+  width: 100px;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 3em;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+section {
+  border-bottom: 2px solid black;
+  p {
+    text-align: center;
+  }
+  .sub-header {
+    padding: 0 25%;
+  }
+  .bike-images {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    img {
+      display: block;
+      float: left;
+      width: 33.33%;
+    }
+  }
+  .sub-image-text {
+    padding: 0 15%;
+  }
+  .sub-header p, .sub-image-text p {
+    font-size: 1em;
+  }
+  .contact {
+    padding: 30px 20% 10px 20%;
+    p {
+      font-weight: bold;
+    }
+    p:first-child {
+      font-weight: normal;
+    }
+  }
+}
+
+footer p {
+  text-align: center;
+  line-height: 50px;
+}
