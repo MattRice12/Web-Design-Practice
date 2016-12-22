@@ -1,0 +1,55 @@
+@media (max-width: 480px) {
+  header .content {
+    padding: 30px;
+  }
+
+  img {
+    width: 75px;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  @keyframes moveSlideshow {
+    100% {
+      transform: translateX(-300%);
+    }
+  }
+
+  section {
+    .sub-header {
+      padding: 0 12%;
+    }
+    .bike-images {
+      display: flex;
+      height: 250px;
+      img {
+        width: 100%;
+        &:last-child {
+          display:block;
+        }
+        animation: moveSlideshow 12s linear infinite;
+      }
+    }
+    .sub-image-text {
+      display: none;
+    }
+    .contact {
+      padding: 30px 10px 10px 10px;
+      p {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      p:first-child {
+        font-size: 1.3em;
+        font-weight: normal;
+      }
+    }
+  }
+
+  footer p {
+    text-align: center;
+    line-height: 50px;
+  }
+}

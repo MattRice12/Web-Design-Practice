@@ -44,6 +44,9 @@ section {
       display: block;
       float: left;
       width: 33.33%;
+      &:last-child {
+        display: none;
+      }
     }
   }
   .sub-image-text {
@@ -67,3 +70,5 @@ footer p {
   text-align: center;
   line-height: 50px;
 }
+
+@import 'mobile';

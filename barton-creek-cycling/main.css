@@ -36,6 +36,8 @@ section {
       display: block;
       float: left;
       width: 33.33%; }
+      section .bike-images img:last-child {
+        display: none; }
   section .sub-image-text {
     padding: 0 15%; }
   section .sub-header p, section .sub-image-text p {
@@ -50,5 +52,43 @@ section {
 footer p {
   text-align: center;
   line-height: 50px; }
+
+@media (max-width: 480px) {
+  header .content {
+    padding: 30px; }
+
+  img {
+    width: 75px; }
+
+  .title h1 {
+    font-size: 1.5em; }
+
+  @keyframes moveSlideshow {
+    100% {
+      transform: translateX(-300%); } }
+  section .sub-header {
+    padding: 0 12%; }
+  section .bike-images {
+    display: flex;
+    height: 250px; }
+    section .bike-images img {
+      width: 100%;
+      animation: moveSlideshow 12s linear infinite; }
+      section .bike-images img:last-child {
+        display: block; }
+  section .sub-image-text {
+    display: none; }
+  section .contact {
+    padding: 30px 10px 10px 10px; }
+    section .contact p {
+      font-size: 1.5em;
+      font-weight: bold; }
+    section .contact p:first-child {
+      font-size: 1.3em;
+      font-weight: normal; }
+
+  footer p {
+    text-align: center;
+    line-height: 50px; } }
 
 /*# sourceMappingURL=main.css.map */
