@@ -1,5 +1,12 @@
 ## Accessibility Ideas:
 
+# Gem - WAIAble
+https://github.com/techvision/waiable
+
+WAIAble gem is the Rails W​eb A​ccessibility I​nitiative for differently able.
+
+WAIAble gem will add accessibility features in rails form and will make rails form fully accessible to screen reader users and keyboard users. This gem forces all the form fields to be compliant with WAI-ARIA standards.
+
 # ARIA attributes
   https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
 
@@ -41,6 +48,3 @@ http://mashable.com/2011/04/20/design-for-visually-impaired/#GyQb34EFVPqU
 	3. Be Mindful of Colors for Action Items
 	4. Let Desktop Users Browse Your Mobile Site
 	5. Use Keyboard Shortcuts to Aid Navigation
-
-# Audibly impaired:
-	1) VoiceOver when clicking on an option (be descriptive — "Play First Episode" rather than "Play")
